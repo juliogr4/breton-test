@@ -45,7 +45,14 @@
     -  Abram o arquivo "queries.sql" e executem os procedimentos pressionando "F5"
 
 -  Angular
-  - ng serve --o    
+  - ng serve --o
+
+# ENDPOINTS
+
+Account Endpoint: Accesso geral.
+Customer Endpoint: Para cada requisição, é necessário enviar no HEADER o Bearer Token.
+
+![Endpoints](https://github.com/juliogr4/breton-test/assets/102883494/61bd21d7-83a0-49d0-9f7b-ff40857b174c)
 
 # TELAS
 
