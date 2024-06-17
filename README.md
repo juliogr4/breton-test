@@ -9,7 +9,13 @@
 
 # TECNOLOGIAS
   - API
-    Clean Architure, Mediator, CQRS, FluentValidation, DDD, Dapper ORM
+    - Clean Architure
+    - Mediator
+    - CQRS
+    - FluentValidation
+    - DDD
+    - Dapper ORM
+    - Json Web Token - Jwt
 
   - FRONTEND
     jwt-decoder, reactive forms
@@ -28,7 +34,9 @@
 
 - API
     - visual studio code: dotnet run --project ./Breton.Api/
-    - visual studio: Basta abrir o arquivo Breton Sln e pressionar "F5"
+    - visual studio: Basta abrir o arquivo Breton Sln e pressionar "F5" para abrir o swagger
+ 
+    - OBS: para testar no vscode, a pasta Request utiliza a extensão "Request Client". Caso venha à utilizar, não esqueçam de inserir o Bearer Token na solicitação
   
 - SQL Server
     -  Abram o arquivo "queries.sql" e executem os procedimentos pressionando "F5"
