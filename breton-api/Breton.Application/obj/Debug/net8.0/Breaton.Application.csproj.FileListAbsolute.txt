@@ -1,0 +1,15 @@
+D:\projects\web\breton\api\Breaton.Application\bin\Debug\net8.0\Breaton.Application.deps.json
+D:\projects\web\breton\api\Breaton.Application\bin\Debug\net8.0\Breaton.Application.dll
+D:\projects\web\breton\api\Breaton.Application\bin\Debug\net8.0\Breaton.Application.pdb
+D:\projects\web\breton\api\Breaton.Application\bin\Debug\net8.0\Breaton.Domain.dll
+D:\projects\web\breton\api\Breaton.Application\bin\Debug\net8.0\Breaton.Domain.pdb
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton.Application.csproj.AssemblyReference.cache
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton.Application.AssemblyInfoInputs.cache
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton.Application.AssemblyInfo.cs
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton.Application.csproj.CoreCompileInputs.cache
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton..4C303F14.Up2Date
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton.Application.dll
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\refint\Breaton.Application.dll
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\Breaton.Application.pdb
+D:\projects\web\breton\api\Breaton.Application\obj\Debug\net8.0\ref\Breaton.Application.dll

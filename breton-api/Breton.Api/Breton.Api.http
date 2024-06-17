@@ -1,0 +1,6 @@
+@Breton.Api_HostAddress = http://localhost:5267
+
+GET {{Breton.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

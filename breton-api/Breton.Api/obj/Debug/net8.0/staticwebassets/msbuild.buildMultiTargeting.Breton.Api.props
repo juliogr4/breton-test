@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Breton.Api.props" />
+</Project>

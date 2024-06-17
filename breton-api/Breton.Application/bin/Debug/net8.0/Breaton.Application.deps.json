@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Breaton.Application/1.0.0": {
+        "dependencies": {
+          "Breaton.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Breaton.Application.dll": {}
+        }
+      },
+      "Breaton.Domain/1.0.0": {
+        "runtime": {
+          "Breaton.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Breaton.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Breaton.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

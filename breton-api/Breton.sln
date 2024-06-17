@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breton.Api", "Breton.Api\Breton.Api.csproj", "{7CAC3FF9-D34B-41C3-B084-0D94AE9545BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breton.Application", "Breton.Application\Breton.Application.csproj", "{99306465-8896-47A1-8CF9-3307486DDFD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breton.Infrastructure", "Breton.Infrastructure\Breton.Infrastructure.csproj", "{D3C7899B-A8CB-44DB-84D9-83209E280349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breton.Domain", "Breton.Domain\Breton.Domain.csproj", "{9181F50A-24C7-476E-8AB5-A7B43E48BB1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CAC3FF9-D34B-41C3-B084-0D94AE9545BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAC3FF9-D34B-41C3-B084-0D94AE9545BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAC3FF9-D34B-41C3-B084-0D94AE9545BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAC3FF9-D34B-41C3-B084-0D94AE9545BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99306465-8896-47A1-8CF9-3307486DDFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99306465-8896-47A1-8CF9-3307486DDFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99306465-8896-47A1-8CF9-3307486DDFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99306465-8896-47A1-8CF9-3307486DDFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C7899B-A8CB-44DB-84D9-83209E280349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C7899B-A8CB-44DB-84D9-83209E280349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C7899B-A8CB-44DB-84D9-83209E280349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C7899B-A8CB-44DB-84D9-83209E280349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9181F50A-24C7-476E-8AB5-A7B43E48BB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9181F50A-24C7-476E-8AB5-A7B43E48BB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9181F50A-24C7-476E-8AB5-A7B43E48BB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9181F50A-24C7-476E-8AB5-A7B43E48BB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+@host = http://localhost:5267/customer/
+
+POST {{host}}
+content-type: application/json
+
+{
+  "CreatedBy": 1,
+  "Name": "John Doe",
+  "CPF": "12345678910",
+  "Birthdate": "1990-05-20",
+  "Phone": "11987654321",
+  "Address": {
+    "PostalCode": "12345678",
+    "Street": "123 Main St",
+    "Complement": "Apt 101",
+    "Neighborhood": "Downtown",
+    "City": "Big City",
+    "State": "NY",
+    "Ibge": "123456789",
+    "Gia": "123456789",
+    "DDD": "11",
+    "Siafi": "1234"
+  }
+}

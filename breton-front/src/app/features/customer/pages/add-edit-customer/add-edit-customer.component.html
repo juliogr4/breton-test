@@ -1,0 +1,68 @@
+<section class="customer">
+  <div class="container">
+    <form class="form" [formGroup]="customerForm">
+      <div class="form__container">
+
+        <!-- Customer -->
+        <div class="form__section">
+          <h3>Customer</h3>
+          <div class="form__field" *ngIf="action.toLowerCase() == 'edit'">
+            <input type="text" class="form__input" formControlName="id" placeholder="ID">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="name" placeholder="Name">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="cpf" placeholder="CPF">
+          </div>
+          <div class="form__field">
+            <input type="date" class="form__input" formControlName="birthDate" placeholder="Birth Date">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="phone" placeholder="Phone">
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="form__section" formGroupName="address">
+          <h3>Address</h3>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="postalCode" placeholder="Postal Code">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="street" placeholder="Street">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="complement" placeholder="Complement">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="neighborhood" placeholder="Neighborhood">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="city" placeholder="City">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="state" placeholder="State">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="ibge" placeholder="IBGE">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="gia" placeholder="GIA">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="ddd" placeholder="DDD">
+          </div>
+          <div class="form__field">
+            <input type="text" class="form__input" formControlName="siafi" placeholder="SIAFI">
+          </div>
+        </div>
+      </div>
+
+      <div class="action__field">
+        <button class="form__button" type="button" [routerLink]="['/customer']">Voltar</button>
+        <button class="form__button" type="submit" (click)="onSave()">{{ action }}</button>
+      </div>
+    </form>
+  </div>
+</section>

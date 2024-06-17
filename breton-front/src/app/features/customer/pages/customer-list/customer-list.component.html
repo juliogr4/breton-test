@@ -1,0 +1,55 @@
+<section class="customer">
+
+  <!-- logout -->
+  <button (click)="onLogout()">Logout</button>
+
+  <!-- create customer -->
+  <div class="customer__link">
+    <a [routerLink]="['add-customer']" >
+      <i class="fa-solid fa-square-plus customer__link-icon"></i>
+    </a>
+  </div>
+
+  <!-- search form -->
+  <form class="form" [formGroup]="searchForm">
+    <div class="form__field">
+      <input type="text" class="form__input" formControlName="cpf" placeholder="CPF">
+    </div>
+
+    <div class="form__field">
+      <input type="text" class="form__input" formControlName="name" placeholder="Name">
+    </div>
+  </form>
+
+  <!-- list -->
+  <table>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>cpf</th>
+      <th>Birth date</th>
+      <th>Phone</th>
+      <th>Created By Id</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let customer of (customers | async)?.data">
+      <td>{{ customer.id }}</td>
+      <td>{{ customer.name }}</td>
+      <td>{{ customer.cpf }}</td>
+      <td>{{ customer.birthDate }}</td>
+      <td>{{ customer.phone }}</td>
+      <td>{{ customer.createdBy }}</td>
+      <td>
+        <button>
+          <i class="fa-solid fa-trash" (click)="onDelete(customer.id)"></i>
+        </button>
+        <a [routerLink]="['edit-customer', customer.id]">
+          <i class="fa-solid fa-pen-to-square"></i>
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <!-- pagination -->
+  <app-pagination></app-pagination>
+</section>

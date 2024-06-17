@@ -1,0 +1,10 @@
+@host = http://localhost:5267/customer/
+
+GET {{host}}
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2IiwibmFtZSI6Imx1Y2llbmUiLCJhdWQiOlsiaHR0cHM6Ly9sb2NhbGhvc3Q6NTI2NyIsImh0dHBzOi8vbG9jYWxob3N0OjUyNjciXSwiZXhwIjoxNzE4NTk5MTM5LCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MjY3In0.4jL3fvWZN871V2972uiXFyCgeN2AD4OFq967RDG0_EE
+
+{
+    "pageSize": 5,
+    "pageNumber": 1
+}

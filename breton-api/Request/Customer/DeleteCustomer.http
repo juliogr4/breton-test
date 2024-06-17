@@ -1,0 +1,4 @@
+@host = http://localhost:5267/customer/
+
+DELETE {{host}}1
+Accept: application/json

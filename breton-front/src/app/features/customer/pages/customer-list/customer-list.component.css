@@ -1,0 +1,45 @@
+.customer {
+  padding: 1rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.customer__link {
+  text-align: center;
+}
+
+.customer__link-icon {
+  font-size: 3rem;
+}
+
+
+.form {
+  display: flex;
+  gap: 1rem;
+}
+
+.form__field {
+  margin-bottom: 20px;
+}
+
+.form__input {
+  width: calc(100% - 12px);
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: .5rem;
+  font-size: 1rem;
+}

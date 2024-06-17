@@ -1,0 +1,35 @@
+<section class="account">
+  <div class="container">
+
+    <form class="form" [formGroup]="registerForm">
+      <div class="form__field">
+        <label for="name" class="form__label">Name</label>
+        <input type="text" class="form__input" id="name" formControlName="name">
+      </div>
+
+      <div class="form__field">
+        <label for="email" class="form__label">Email</label>
+        <input type="text" class="form__input" id="email" formControlName="email">
+      </div>
+
+      <div class="form__field">
+        <label for="password" class="form__label">Password</label>
+        <input type="text" class="form__input" id="password" formControlName="password">
+      </div>
+
+      <div class="form__field">
+        <label for="confirmPassword" class="form__label">Confirm Password</label>
+        <input type="text" class="form__input" id="confirmPassword" formControlName="confirmPassword">
+      </div>
+
+      <div>
+        <button class="form__button" (click)="onRegister()" [disabled]="!isValid">Register</button>
+        <p class="form__text">
+          Already have an account.
+          <a class="form__link" [routerLink]="['']">Login</a>
+        </p>
+      </div>
+    </form>
+
+  </div>
+</section>

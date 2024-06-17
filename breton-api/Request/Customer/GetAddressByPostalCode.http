@@ -1,0 +1,4 @@
+@host = http://localhost:5267/customer/
+
+GET {{host}}postal-code/01001000
+Accept: application/json

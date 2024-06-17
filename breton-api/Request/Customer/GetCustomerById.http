@@ -1,0 +1,5 @@
+@host = http://localhost:5267/customer/
+
+GET {{host}}1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIzIiwibmFtZSI6ImFtYXJlbG8iLCJhdWQiOlsiaHR0cHM6Ly9sb2NhbGhvc3Q6NTI2NyIsImh0dHBzOi8vbG9jYWxob3N0OjUyNjciXSwiZXhwIjoxNzE4NTkxNDgzLCJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MjY3In0.0rNOGndyzY02vezHjSPoazxWGbQ-NvZEzonBRXx77Ss
+Accept: application/json
