@@ -18,7 +18,10 @@
     - Json Web Token - Jwt
 
   - FRONTEND
-    jwt-decoder, reactive forms
+    - jwt-decoder: decode jwt
+    - reactive forms
+    - interceptor
+    - guards
 
   - DATABASE
     Stored Procedures
