@@ -1,10 +1,10 @@
-# Introdução
+# 1. Introdução
 
 Esse projeto constitui em registro e login de usuário.
 
 Somente usuários devidamente autenticados terão a permissão de criar, editar e deletar clientes
 
-# Versõs
+# 2. Versões
 
 | Stack | Version |
 | ----------- | ------- |
@@ -12,7 +12,7 @@ Somente usuários devidamente autenticados terão a permissão de criar, editar 
 | Angular | 16.0 |
 | Sql Server Developer | 2022 |
 
-# Tecnologias
+# 3. Tecnologias
   | API |
   | ----------- |
   | Clean Architecture |
@@ -39,9 +39,9 @@ Somente usuários devidamente autenticados terão a permissão de criar, editar 
   | ----------- |
   | Stored Procedures |
 
-# Configurações
+# 4. Configurações
 
-## API
+## 4.1 API
 1. Acessem `appsettings.json`
 2. Mudem o SqlConnection e o EmailSettings (Outlook) de acordo com seus dados pessoais.
 
@@ -50,29 +50,29 @@ Somente usuários devidamente autenticados terão a permissão de criar, editar 
     - "EmailSettings": { "Host": "outlook.office365.com", "Port": 587, "From": "YOUR_EMAIL", "Password": "YOUR_EMAIL_PASSWORD" }
 ```
 
-# Startup Project
+# 5. Startup Project
 
-## API
+## 5.1 API
 
 - **visual studio code:** `dotnet run --project ./Breton.Api/`
 - **visual studio:** Basta abrir o arquivo `Breton Sln` e pressionar `F5` para abrir o swagger
  
 *OBS: para testar no vscode, a pasta Request utiliza a extensão "Request Client". Caso venha à utilizar, não esqueçam de inserir o Bearer Token na solicitação*
   
-## SQL Server
+## 5.2 SQL Server
 Abram o arquivo `queries.sql` e executem os procedimentos pressionando "F5"
 
-## Angular
+## 5.3 Angular
 ng serve --o
 
-# ENDPOINTS
+# 6. ENDPOINTS
 
 Account Endpoint: Accesso geral.
 Customer Endpoint: Para cada requisição, é necessário enviar no HEADER o Bearer Token.
 
 ![Endpoints](https://github.com/juliogr4/breton-test/assets/102883494/61bd21d7-83a0-49d0-9f7b-ff40857b174c)
 
-# TELAS
+# 7. TELAS
 
 REGISTER
 ![register](https://github.com/juliogr4/breton-test/assets/102883494/d9a2df4c-99fb-44ba-8f7a-87f1bc7703f3)
@@ -87,6 +87,7 @@ ADD EDIT CUSTOMER
 ![add-edit-customer](https://github.com/juliogr4/breton-test/assets/102883494/8c4e481f-9e0a-41b7-b2d9-8e521c0868b9)
 
 DELETE CUSTOMER
+
 ![delete-customer](https://github.com/juliogr4/breton-test/assets/102883494/47392b83-38c1-411c-98f6-1eff1a4e4512)
 
 EMAIL CONFIRMATION
