@@ -1,51 +1,69 @@
-# INTRODUÇÃO
-  - Esse projeto constitui em registro e login de usuaário.
-  - Somente usuários devidamente autenticados terão a permissão de criar, editar e deletar clientes
+# Introdução
 
-# VERSÕES
-  - API: .Net 8.0
-  - Angular: 16.0
-  - Sql Server Developer: 2022 
+Esse projeto constitui em registro e login de usuário.
 
-# TECNOLOGIAS
-  - API
-    - Clean Architure
-    - Mediator
-    - CQRS
-    - FluentValidation
-    - DDD
-    - Dapper ORM
-    - Json Web Token - Jwt
+Somente usuários devidamente autenticados terão a permissão de criar, editar e deletar clientes
 
-  - FRONTEND
-    - jwt-decoder: decode jwt
-    - reactive forms
-    - interceptor
-    - guards
+# Versõs
 
-  - DATABASE
-    Stored Procedures
+| Stack | Version |
+| ----------- | ------- |
+| API | .Net 8.0 |
+| Angular | 16.0 |
+| Sql Server Developer | 2022 |
 
-# CONFIGURAÇÕES
+# Tecnologias
+  | API |
+  | ----------- |
+  | Clean Architecture |
+  | Mediator |
+  | CQRS |
+  | FluentValidation |
+  | Mapster |
+  | DDD |
+  | Dapper ORM |
+  | Json Web Token - Jwt |
 
-- API
-  Em appsettings.json, mudem o SqlConnection e o EmailSettings (Outlook) de acordo com seus dados pessoais.
+---
+
+  | FRONTEND |
+  | ----------- |
+  | jwt-decoder |
+  | reactive forms |
+  | interceptor |
+  | guards |
+
+---
+
+  | DATABASE |
+  | ----------- |
+  | Stored Procedures |
+
+# Configurações
+
+## API
+1. Acessem `appsettings.json`
+2. Mudem o SqlConnection e o EmailSettings (Outlook) de acordo com seus dados pessoais.
+
+```c#
     - "SqlConnection": "Data Source="YOUR_SERVER";Initial Catalog=breton_db;Integrated Security=True;Trust Server Certificate=True"
     - "EmailSettings": { "Host": "outlook.office365.com", "Port": 587, "From": "YOUR_EMAIL", "Password": "YOUR_EMAIL_PASSWORD" }
+```
 
-# INICIALIZAÇÃO
+# Startup Project
 
-- API
-    - visual studio code: dotnet run --project ./Breton.Api/
-    - visual studio: Basta abrir o arquivo Breton Sln e pressionar "F5" para abrir o swagger
+## API
+
+- **visual studio code:** `dotnet run --project ./Breton.Api/`
+- **visual studio:** Basta abrir o arquivo `Breton Sln` e pressionar `F5` para abrir o swagger
  
-    - OBS: para testar no vscode, a pasta Request utiliza a extensão "Request Client". Caso venha à utilizar, não esqueçam de inserir o Bearer Token na solicitação
+*OBS: para testar no vscode, a pasta Request utiliza a extensão "Request Client". Caso venha à utilizar, não esqueçam de inserir o Bearer Token na solicitação*
   
-- SQL Server
-    -  Abram o arquivo "queries.sql" e executem os procedimentos pressionando "F5"
+## SQL Server
+Abram o arquivo `queries.sql` e executem os procedimentos pressionando "F5"
 
--  Angular
-  - ng serve --o
+## Angular
+ng serve --o
 
 # ENDPOINTS
 
